@@ -6,26 +6,43 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ぐー"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="646dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ちょき"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="613dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ちょき"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="648dp" />
+        android:text="ぱー"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="613dp" />
 
-    <Button
-        android:id="@+id/button4"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ぱー"
-        tools:layout_editor_absoluteX="299dp"
-        tools:layout_editor_absoluteY="653dp" />
+        android:text="あいて"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="あなた"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="364dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
