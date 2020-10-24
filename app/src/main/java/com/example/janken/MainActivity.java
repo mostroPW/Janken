@@ -31,7 +31,11 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
             }
 
         if(v==endButton){
-            finish();
+            Intent intent = new Intent(this, Progres.class);
+            startActivityForResult(intent, 0);
+
+
+            //finish();
         }
 
 
